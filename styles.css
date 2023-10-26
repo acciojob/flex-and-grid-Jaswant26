@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+.main-card-grid{
+	display:grid;
+	grid-template-columns: 3fr 3fr 3fr;
+}
+.card{
+	border:10px solid #ccc;
+	background-color:#fafafa;
+}
+.card>h1{
+	font-size:1.5rem;
+}
+.card>p{
+	font-size:0.75rem;
+}
